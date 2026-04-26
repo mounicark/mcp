@@ -1,9 +1,0 @@
-2026-04-26 12:30:40,378 - DEBUG - Initializing server 'file-server'
-2026-04-26 12:30:40,378 - DEBUG - Registering handler for ListToolsRequest
-2026-04-26 12:30:40,379 - DEBUG - Registering handler for CallToolRequest
-2026-04-26 12:30:40,379 - DEBUG - Registering handler for ListResourcesRequest
-2026-04-26 12:30:40,379 - DEBUG - Registering handler for ReadResourceRequest
-2026-04-26 12:30:40,379 - DEBUG - Registering handler for PromptListRequest
-2026-04-26 12:30:40,379 - DEBUG - Registering handler for GetPromptRequest
-2026-04-26 12:30:40,379 - DEBUG - Registering handler for ListResourceTemplatesRequest
-2026-04-26 12:30:40,395 - DEBUG - Using selector: EpollSelector
