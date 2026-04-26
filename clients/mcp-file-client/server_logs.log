@@ -1,0 +1,23 @@
+2026-04-26 13:13:15,391 - DEBUG - Initializing server 'file-server'
+2026-04-26 13:13:15,391 - DEBUG - Registering handler for ListToolsRequest
+2026-04-26 13:13:15,392 - DEBUG - Registering handler for CallToolRequest
+2026-04-26 13:13:15,392 - DEBUG - Registering handler for ListResourcesRequest
+2026-04-26 13:13:15,392 - DEBUG - Registering handler for ReadResourceRequest
+2026-04-26 13:13:15,392 - DEBUG - Registering handler for PromptListRequest
+2026-04-26 13:13:15,392 - DEBUG - Registering handler for GetPromptRequest
+2026-04-26 13:13:15,392 - DEBUG - Registering handler for ListResourceTemplatesRequest
+2026-04-26 13:13:15,396 - DEBUG - Using selector: EpollSelector
+2026-04-26 13:13:15,399 - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-04-26 13:13:15,400 - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x7f3f243234f0>
+2026-04-26 13:13:15,400 - INFO - Processing request of type ListToolsRequest
+2026-04-26 13:13:15,400 - DEBUG - Dispatching request of type ListToolsRequest
+2026-04-26 13:13:15,400 - DEBUG - Response sent
+2026-04-26 13:13:31,806 - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x7f3f24323ac0>
+2026-04-26 13:13:31,806 - INFO - Processing request of type ListToolsRequest
+2026-04-26 13:13:31,806 - DEBUG - Dispatching request of type ListToolsRequest
+2026-04-26 13:13:31,806 - DEBUG - Response sent
+2026-04-26 13:13:32,233 - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x7f3f24323910>
+2026-04-26 13:13:32,233 - INFO - Processing request of type CallToolRequest
+2026-04-26 13:13:32,233 - DEBUG - Dispatching request of type CallToolRequest
+2026-04-26 13:13:32,233 - DEBUG - Requested file=test_info.txt abs_file=/home/mounica/test/lib/test_info.txt exists=True isfile=True
+2026-04-26 13:13:32,235 - DEBUG - Response sent
