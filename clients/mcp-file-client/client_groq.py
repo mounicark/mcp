@@ -164,6 +164,9 @@ async def main():
     try:
         await client.connect_to_server(sys.argv[1])
         await chat_loop(client)
+        # tool_response = await client.session.list_tools()
+        # print(tool_response.tools)
+
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)
     finally:
